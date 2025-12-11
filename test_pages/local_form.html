@@ -1,0 +1,40 @@
+<!-- test_pages/local_form.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Local Test Form</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .hidden { display: none; }
+    .success { color: green; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Local Automation Test Form</h2>
+
+  <form id="contactForm">
+    <label for="my-text-id">Name:</label><br/>
+    <input type="text" id="my-text-id" name="name" /><br/><br/>
+
+    <label for="my-email-id">Email:</label><br/>
+    <input type="email" id="my-email-id" name="email" /><br/><br/>
+
+    <button id="submit" type="submit">Submit</button>
+  </form>
+
+  <h1 id="result" class="hidden">Form submitted</h1>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      // simulate server processing delay
+      setTimeout(function() {
+        document.getElementById('result').classList.remove('hidden');
+        // optionally hide the form
+        document.getElementById('contactForm').classList.add('hidden');
+      }, 300);
+    });
+  </script>
+</body>
+</html>
