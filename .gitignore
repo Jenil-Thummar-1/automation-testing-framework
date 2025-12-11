@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/*.html
+reports/*.csv
+
+# Driver files
+chromedriver.exe
+chromedriver
+
+# Virtual environments
+env/
+venv/
+
+# PyTest cache
+.cache/
+
+# Temporary files
+*.tmp
