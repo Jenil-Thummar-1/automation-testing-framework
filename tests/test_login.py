@@ -1,5 +1,4 @@
 # tests/test_login.py
-
 import time
 from utils.driver import get_driver
 from utils.report_generator import ReportGenerator

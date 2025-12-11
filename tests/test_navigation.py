@@ -1,5 +1,4 @@
 # tests/test_navigation.py
-
 from utils.driver import get_driver
 from utils.report_generator import ReportGenerator
 from pages.dashboard_page import DashboardPage

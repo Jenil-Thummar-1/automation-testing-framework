@@ -3,7 +3,6 @@ from utils.report_generator import ReportGenerator
 
 # 🔹 Clean old report
 open("reports/test_report.csv", "w").close()
-
 print("\nRunning all automation tests...\n")
 
 # 🔹 Run all tests inside tests folder

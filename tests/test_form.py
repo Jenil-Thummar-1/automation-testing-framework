@@ -1,5 +1,4 @@
 # tests/test_form.py
-
 from utils.driver import get_driver
 from utils.report_generator import ReportGenerator
 from pages.form_page import FormPage

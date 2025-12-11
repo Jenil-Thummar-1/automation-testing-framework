@@ -26,7 +26,6 @@ def get_driver():
         logging.error(f"Error while initializing WebDriver: {e}")
         raise
 
-
 # Logging Configuration
 logging.basicConfig(
     filename="logs/app.log",
