@@ -1,4 +1,5 @@
-🧪 Automation Testing Framework (Python + Selenium)
+🧪 Automation Testing Framewor
+ (Python + Selenium)
 
 # End-to-End Automation Testing Framework  
 
