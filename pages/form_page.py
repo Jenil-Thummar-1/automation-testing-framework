@@ -11,7 +11,6 @@ class FormPage(BasePage):
     SUCCESS = (By.TAG_NAME, "h1")
 
     def open_form_page(self):
-        # Convert local file path to file:// URI (works on Windows too)
         file_uri = Path(LOCAL_FORM).absolute().as_uri()
         self.open(file_uri)
 
