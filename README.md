@@ -114,7 +114,8 @@ Integrate CI/CD with GitHub Actions
 Add API Testing module
 Add parallel execution support
 
-👨‍💻 Author
-Jenil Thummar
+👨‍💻 Author-Jenil Thummar
+
 Python Automation Engineer (Beginner → Pro Journey 🚀)
+
 GitHub: https://github.com/Jenil-Thummar-1
